@@ -1,5 +1,5 @@
 function [X,dX] = implicitEuler(func,n,h,x,dx)
-
+%переписать на неявный
 X = zeros(size(n)); 
 dX = zeros(size(n));
 dXt = zeros(size(n));

@@ -1,7 +1,3 @@
-% pendulum with friction
-
-clear;
-clc;
 
 f = @(x,y) [y(2), - sin(y(1))]';
 Time = [0, 100];

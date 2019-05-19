@@ -4,7 +4,7 @@ dX = zeros(size(n));
 X(1) = x;
 dX(1) = dx;
 for i=1:n-1
-    dX(i+1)= dX(i) + h*func(x,dX(i)); % считаем производную
+    dX(i+1)= dX(i) + h*func(X(i),dX(i)); % считаем производную
     X(i+1)=X(i)+ h;% считаем ф-цию
 end
     
